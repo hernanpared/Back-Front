@@ -1,0 +1,150 @@
+/* Hero Section Styles */
+.hero-section {
+    position: relative;
+    height: 70vh; /* Ajuste para asegurar la cobertura */
+    background-image: url('../../public/img/holy-IPA-SabroCitra-300x300.jpg'); /* Ajusta la ruta */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Añadir transparencia */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Beer Section Styles */
+  .cervezas-container {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .cervezas-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .cervezas-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cerveza-card {
+    background-color: #222;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .cerveza-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cerveza-info {
+    padding: 20px;
+  }
+  
+  .cerveza-info h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .cerveza-info p {
+    margin-bottom: 20px;
+  }
+  
+  .buy-button {
+    background-color: #ffcc00;
+    color: #111;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content p {
+      font-size: 0.9rem;
+    }
+  
+    .cerveza-info h3 {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 50vh; /* Ajuste de altura para pantallas más pequeñas */
+    }
+  
+    .cervezas-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-content {
+      padding: 10px;
+    }
+  
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .hero-content p {
+      font-size: 0.8rem;
+    }
+  
+    .buy-button {
+      font-size: 0.875rem;
+      padding: 8px 16px;
+    }
+  }
+  
