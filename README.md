@@ -4,14 +4,17 @@ Este proyecto es una aplicación web diseñada para la gestión eficiente de nov
 
 ## 🚀 Tecnologías Utilizadas
 
+## 🚀 Tecnologías Utilizadas
+
 - **Node.js**: Plataforma de desarrollo backend que permite crear aplicaciones escalables y rápidas.
 - **Express**: Framework web para Node.js que facilita la creación de aplicaciones robustas y manejables.
 - **MySQL**: Sistema de gestión de bases de datos relacional utilizado para almacenar y gestionar los datos de las novedades.
-- **EJS (Embedded JavaScript)**: Motor de plantillas utilizado para generar páginas HTML dinámicas en el servidor.
+- **Handlebars**: Motor de plantillas utilizado para generar páginas HTML dinámicas en el servidor.
 - **Bootstrap**: Framework CSS que se utiliza para diseñar una interfaz de usuario responsiva y moderna.
 - **Nodemon**: Herramienta utilizada para el desarrollo que reinicia automáticamente el servidor cuando detecta cambios en el código.
 - **Express File Upload**: Middleware que facilita la carga de archivos en el servidor.
 - **Cloudinary**: Servicio utilizado para la gestión de imágenes en la nube, permitiendo un manejo eficiente y escalable de los archivos multimedia.
+
 
 ## 🎨 Características
 
