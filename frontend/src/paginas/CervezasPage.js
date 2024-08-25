@@ -8,22 +8,22 @@ const beers = [
     id: 1,
     name: "GOLDEN",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
-    image: "/img/golden_beer.png",
+      "La mejor cerveza artezal estilo Golden de la ciudad.",
+    image: "/img/Holy-variado-300x300.jpg",
   },
   {
     id: 2,
     name: "WEISSBIER",
     description:
-      "Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
-    image: "/img/weissbier_beer.png",
+      "Proba nuestra cerveza de trigo, el mejor sabor del verano.",
+    image: "/img/holy-IPA-SabroCitra-300x300.jpg",
   },
   {
     id: 3,
     name: "HONEY YATEI",
     description:
-      "Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta.",
-    image: "/img/honey_yatei_beer.png",
+      "Cerveza Honey con una miel muy especial, no te pierdas.",
+    image: "/img/holy-tapir-300x300.jpg",
   },
 ];
 
